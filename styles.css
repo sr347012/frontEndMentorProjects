@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400&family=Lexend+Deca:wght@100;200;300;400&display=swap");
+:root {
+  --Bright_orange: hsl(31, 77%, 52%);
+  --Dark_cyan: hsl(184, 100%, 22%);
+  --Very_dark_cyan: hsl(179, 100%, 13%);
+  --Transparent_white: hsla(0, 0%, 100%, 0.75); /*paragraphs*/
+  --Very_light_gray: hsl(0, 0%, 95%);/*(background, headings, buttons)*/
+}
+body{
+    background-color: var(--Very_light_gray);
+}
+
+.container{
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    position: relative;
+    margin: 5%;
+    width: 60%;
+    height: 70%;
+    align-items: center;
+}
+.grid-item{
+    border-radius: 5px;
+}
+.item-heading{
+    font-family: "Big Shoulders Display", cursive;
+    font-weight: 500;
+    font-size: 50px;    
+    margin-left: 20px;
+    padding-left: 20px;
+    color: var(--Very_light_gray);
+    width: 80%;
+}
+
+.item-text{
+    color: var(--Transparent_white);
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-weight: 3
+    00;
+    font-size: 15px;
+    margin: 20px;
+    padding: 20px ;    
+}
+.item-button{
+    color: var(--Very_light_gray);
+    font-family: "Lexend Deca";
+    font-style: normal;
+    font-size: 15px;
+    border: 1px solid var(--Very_light_gray);
+    border-radius: 30px;
+    margin: 40px;
+    padding: 10px;
+    width: 40%;
+    background-color: transparent;
+}
+img{
+    height: 60;
+    width: 40;
+}
+.item-image{
+    margin: 40px;
+}
+
+.cardColorSedans{
+    background-color: var(--Bright_orange);
+}
+.cardColorSuvs{
+    background-color: var(--Dark_cyan);
+}
+.cardColorLuxury{
+    background-color: var(--Very_dark_cyan);
+}
+
